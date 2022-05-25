@@ -5,3 +5,6 @@
   <li>Realtime</li>
   <li>Firestore</li>
 </ul>
+
+<p> Os scripts HTML estão dentro da pasta public.</p>
+<p> Os scripts JS estão dentro da pasta public/src.</p>

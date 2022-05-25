@@ -33,7 +33,7 @@ excluir.addEventListener('click',excluirDados);
 
 /*-------- funções -----------*/
 function inserirDados(){
-     const novaChave = push(child(ref(db), 'Musicas')).key;
+     //para gerar chaves automáticas use: const novaChave = push(child(ref(db), 'Musicas')).key;
 
      set(ref(db, "Musicas/"+varId.value),{
           titulo:varTitulo.value,

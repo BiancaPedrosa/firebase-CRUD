@@ -14,8 +14,6 @@ const firebaseConfig = {
 const app= initializeApp(firebaseConfig);
 const db=getFirestore();
 
-//const db=getDatabase();
-
 /* -------- References ---------- */
 let varId=document.getElementById("formId");
 let varTitulo=document.getElementById("formTitulo");

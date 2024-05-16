@@ -3,15 +3,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase
 import { getDatabase, ref, get, set, child, push, update, remove } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-database.js";
 
 const firebaseConfig = {
-     apiKey: "AIzaSyBauS5AB-ONHMYNO64zZCWDzbwWfPaNdh8",
-     authDomain: "novo-37db3.firebaseapp.com",
-     databaseURL: "https://novo-37db3-default-rtdb.firebaseio.com",
-     projectId: "novo-37db3",
-     storageBucket: "novo-37db3.appspot.com",
-     messagingSenderId: "1040215673006",
-     appId: "1:1040215673006:web:28932a2e257d82ba58453f"
+     apiKey: "AIzaSyDEQctwEUPHdqlpUxAg-X8KHAtFUxRRmOs",
+     authDomain: "web2024-b1d75.firebaseapp.com",
+     databaseURL: "https://web2024-b1d75-default-rtdb.firebaseio.com",
+     projectId: "web2024-b1d75",
+     storageBucket: "web2024-b1d75.appspot.com",
+     messagingSenderId: "381761180656",
+     appId: "1:381761180656:web:2fbd966f00ba72f41cc335"
    };
-
 const app= initializeApp(firebaseConfig);
 
 const db=getDatabase();

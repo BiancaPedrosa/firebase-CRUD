@@ -2,7 +2,7 @@
 <ul>
   <li><a href="realtime2022">Realtime</a></li>
   <li><a href="firestore2022">Firestore</a></li>
-  <li><a href="../quickstart-js/database">Blog</a></li>
+  <li><a href="http://github.com/BiancaPedrosa/quickstart-js/tree/master/database">Blog</a></li>
   <li><a href="https://github.com/BiancaPedrosa/firebase/tree/master/autentica">Autenticação</a></li>
 </ul>
 Para cada um dos exemplos, considere a seguinte organização de arquivos:

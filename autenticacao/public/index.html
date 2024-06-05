@@ -11,12 +11,9 @@
     <script defer src="/__/firebase/9.8.1/firebase-app-compat.js"></script>
     <!-- include only the Firebase features as you need -->
     <script defer src="/__/firebase/9.8.1/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.8.1/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.8.1/firebase-firestore-compat.js"></script>
     <script defer src="/__/firebase/9.8.1/firebase-functions-compat.js"></script>
     <script defer src="/__/firebase/9.8.1/firebase-messaging-compat.js"></script>
     <script defer src="/__/firebase/9.8.1/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/19.8.1/firebase-analytics-compat.js"></script>
     <script defer src="/__/firebase/9.8.1/firebase-remote-config-compat.js"></script>
     <script defer src="/__/firebase/9.8.1/firebase-performance-compat.js"></script>
     <!-- 
@@ -27,36 +24,32 @@
 
   </head>
   <body>
-
-     <h1>Autenticação</h1>
-
-    <div class="col-md-4">
-        <h3 class="text-center" id="displayName">Você não está autenticado</h3>
-        <p id="loadEL"></p>
+    <div class="col-md-4 gap-2">
+        <h1 class="text-center" >Autenticação</h1>
+        <h3 class="text-center" id="displayName">Você não está autenticado</h3>  
         <br>
         <form>
             <div class="form-group">
                 <label for="emailInput">E-mail</label>
-                <input type="email" class="form-control" id="emailInput" placeholder="E-mail">
+                <input type="email" class="form-control" id="emailInput" placeholder="teste@teste.com">
             </div>
             <div class="form-group">
                 <label for="passwordInput">Senha</label>
-                <input type="password" class="form-control" id="passwordInput" placeholder="Senha">
+                <input type="password" class="form-control" id="passwordInput" placeholder="teste123">
             </div>
         </form>
-
-        <button class="btn btn-lg btn-block btn-primary" id="authEmailPassButton">Autenticar</button>
-        <button class="btn btn-lg btn-block btn-info" id="createUserButton">Criar Nova Conta</button>
-        <button class="btn btn-lg btn-danger" id="authGoogleButton">google</i></button>
-        <button class="btn btn-lg btn-warning" id="authAnonymouslyButton">Anonimo</button>
-   
-        <br>
-       
-        <p class="text-center">
-            <button class="btn btn-lg btn-block btn-default" id="logOutButton">Sair</button>
-        </p>
+        <div div class="d-grid gap-2 mx-auto">
+          <button class="btn btn-lg btn-block btn-primary" id="authEmailPassButton">Autenticar</button>
+          <button class="btn btn-lg btn-block btn-info" id="createUserButton">Criar Nova Conta</button>
+          <button class="btn btn-lg btn-block btn-danger" id="authGoogleButton">google</button>
+          <button class="btn btn-lg btn-block btn-dark" id="logOutButton">Sair</button>
+      </div>
     </div>
   
+      <script type="module" src="index.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
       <script type="module" src="js/autentica.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>

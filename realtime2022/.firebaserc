@@ -1,7 +1,6 @@
 {
   "projects": {
-    "default": "novautentica",
-    "nova": "novautentica"
+    "real24": "realtime2022-3b697"
   },
   "targets": {},
   "etags": {},

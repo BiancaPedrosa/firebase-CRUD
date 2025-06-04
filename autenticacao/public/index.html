@@ -20,29 +20,56 @@
 
   </head>
   <body>
-    <div class="col-md-4 gap-2">
-        <h1 class="text-center" >Autenticação</h1>
-        <h3 class="text-center" id="displayName">Você não está autenticado</h3>  
-        <br>
-        <form>
-            <div class="form-group">
-                <label for="emailInput">E-mail</label>
-                <input type="email" class="form-control" id="emailInput" placeholder="teste@teste.com">
-            </div>
-            <div class="form-group">
-                <label for="passwordInput">Senha</label>
-                <input type="password" class="form-control" id="passwordInput" placeholder="teste123">
-            </div>
-        </form>
-        <div div class="d-grid gap-2 mx-auto">
-          <button class="btn btn-lg btn-block btn-primary" id="authEmailPassButton">Autenticar</button>
-          <button class="btn btn-lg btn-block btn-info" id="createUserButton">Criar Nova Conta</button>
-          <button class="btn btn-lg btn-block btn-danger" id="authGoogleButton">google</button>
-          <button class="btn btn-lg btn-block btn-dark" id="logOutButton">Sair</button>
+    <div class="container col-md-6">
+  <div class="mb-4 text-center">
+    <h1>Autenticação</h1>
+    <h5 class="text-muted" id="displayName">Você não está autenticado</h5>
+  </div>
+
+  <form>
+    <div class="mb-3">
+      <label for="emailInput" class="form-label">E-mail</label>
+      <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+        <input type="email" class="form-control" id="emailInput" placeholder="Seu e-mail" aria-label="E-mail">
       </div>
     </div>
-  
-      <script type="module" src="index.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <div class="mb-3">
+      <label for="passwordInput" class="form-label">Senha</label>
+      <div class="input-group">
+        <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
+        <input type="password" class="form-control" id="passwordInput" placeholder="Sua senha" aria-label="Senha">
+      </div>
+    </div>
+
+    <div class="d-grid gap-2 mb-3">
+      <button type="button" class="btn btn-primary" id="authEmailPassButton">
+        <i class="bi bi-box-arrow-in-right"></i> Autenticar
+      </button>
+      <button type="button" class="btn btn-info" id="createUserButton">
+        <i class="bi bi-person-plus-fill"></i> Criar Nova Conta
+      </button>
+    </div>
+
+    <hr class="my-4">
+
+    <div class="d-grid gap-2">
+      <button type="button" class="btn btn-danger" id="authGoogleButton">
+        <i class="bi bi-google"></i> Entrar com Google
+      </button>
+      <button type="button" class="btn btn-warning" id="authAnonymouslyButton">
+        <i class="bi bi-person-fill"></i> Entrar Anonimamente
+      </button>
+      <button type="button" class="btn btn-outline-secondary" id="logOutButton">
+        <i class="bi bi-box-arrow-left"></i> Sair
+      </button>
+    </div>
+  </form>
+</div>
+      </body>
+      <script type="module" src="js/autentica.js"></script>
+      <script src="https://use.fontawesome.com/62e43a72a9.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,0 +1,47 @@
+[debug] [2025-05-28T21:25:27.598Z] ----------------------------------------------------------------------
+[debug] [2025-05-28T21:25:27.607Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2025-05-28T21:25:27.607Z] CLI Version:   14.4.0
+[debug] [2025-05-28T21:25:27.607Z] Platform:      darwin
+[debug] [2025-05-28T21:25:27.608Z] Node Version:  v22.14.0
+[debug] [2025-05-28T21:25:27.608Z] Time:          Wed May 28 2025 18:25:27 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2025-05-28T21:25:27.608Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-28T21:25:27.846Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-28T21:25:27.847Z] > authorizing via signed-in user (bpedrosa@ifsp.edu.br)
+[debug] [2025-05-28T21:25:27.847Z] [iam] checking project novautentica for permissions ["firebase.projects.get"]
+[debug] [2025-05-28T21:25:27.848Z] Checked if tokens are valid: true, expires at: 1748470533333
+[debug] [2025-05-28T21:25:27.848Z] Checked if tokens are valid: true, expires at: 1748470533333
+[debug] [2025-05-28T21:25:27.849Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/novautentica:testIamPermissions [none]
+[debug] [2025-05-28T21:25:27.849Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/novautentica:testIamPermissions x-goog-quota-user=projects/novautentica
+[debug] [2025-05-28T21:25:27.849Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/novautentica:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-05-28T21:25:28.773Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/novautentica:testIamPermissions 200
+[debug] [2025-05-28T21:25:28.773Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/novautentica:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-05-28T21:25:28.774Z] Checked if tokens are valid: true, expires at: 1748470533333
+[debug] [2025-05-28T21:25:28.774Z] Checked if tokens are valid: true, expires at: 1748470533333
+[debug] [2025-05-28T21:25:28.774Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/novautentica/services/cloudresourcemanager.googleapis.com [none]
+[debug] [2025-05-28T21:25:28.774Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/novautentica/services/cloudresourcemanager.googleapis.com x-goog-quota-user=projects/novautentica
+[debug] [2025-05-28T21:25:30.029Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/novautentica/services/cloudresourcemanager.googleapis.com 200
+[debug] [2025-05-28T21:25:30.029Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/novautentica/services/cloudresourcemanager.googleapis.com [omitted]
+[debug] [2025-05-28T21:25:30.029Z] Checked if tokens are valid: true, expires at: 1748470533333
+[debug] [2025-05-28T21:25:30.029Z] Checked if tokens are valid: true, expires at: 1748470533333
+[debug] [2025-05-28T21:25:30.029Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/novautentica [none]
+[debug] [2025-05-28T21:25:30.246Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/novautentica 200
+[debug] [2025-05-28T21:25:30.246Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/novautentica {"projectNumber":"761162266435","projectId":"novautentica","lifecycleState":"ACTIVE","name":"Novautentica","labels":{"firebase":"enabled"},"createTime":"2024-06-04T22:24:23.591023Z","parent":{"type":"organization","id":"1067471096813"}}
+[debug] [2025-05-28T21:25:30.248Z] Checked if tokens are valid: true, expires at: 1748470533333
+[debug] [2025-05-28T21:25:30.248Z] Checked if tokens are valid: true, expires at: 1748470533333
+[debug] [2025-05-28T21:25:30.248Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/novautentica/sites 
+[debug] [2025-05-28T21:25:31.770Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/novautentica/sites 200
+[debug] [2025-05-28T21:25:31.770Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/novautentica/sites {"sites":[{"name":"projects/novautentica/sites/novautentica","defaultUrl":"https://novautentica.web.app","appId":"1:761162266435:web:81f3fad69b4352d2caa1f6","type":"DEFAULT_SITE"}]}
+[debug] [2025-05-28T21:25:31.770Z] Checked if tokens are valid: true, expires at: 1748470533333
+[debug] [2025-05-28T21:25:31.770Z] Checked if tokens are valid: true, expires at: 1748470533333
+[debug] [2025-05-28T21:25:31.771Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/novautentica/webApps/1:761162266435:web:81f3fad69b4352d2caa1f6/config [none]
+[debug] [2025-05-28T21:25:32.807Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/novautentica/webApps/1:761162266435:web:81f3fad69b4352d2caa1f6/config 200
+[debug] [2025-05-28T21:25:32.807Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/novautentica/webApps/1:761162266435:web:81f3fad69b4352d2caa1f6/config {"projectId":"novautentica","appId":"1:761162266435:web:81f3fad69b4352d2caa1f6","storageBucket":"novautentica.firebasestorage.app","apiKey":"AIzaSyAjG5JSwV68eaUJz4kiaucOGBC_G51wuFw","authDomain":"novautentica.firebaseapp.com","messagingSenderId":"761162266435","measurementId":"G-LZ8M9NT2H5"}
+[debug] [2025-05-28T21:25:32.832Z] Checked if tokens are valid: true, expires at: 1748470533333
+[debug] [2025-05-28T21:25:32.832Z] Checked if tokens are valid: true, expires at: 1748470533333
+[debug] [2025-05-28T21:25:32.832Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/novautentica [none]
+[debug] [2025-05-28T21:25:33.200Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/novautentica 200
+[debug] [2025-05-28T21:25:33.200Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/novautentica {"projectId":"novautentica","projectNumber":"761162266435","displayName":"Novautentica","name":"projects/novautentica","resources":{"hostingSite":"novautentica"},"state":"ACTIVE","etag":"1_8a6b66fd-adba-4e02-80fc-01c04726f131"}
+[info] i  hosting[novautentica]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting[novautentica]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [28/May/2025:21:25:42 +0000] "GET /__/firebase/init.js?useEmulator=true HTTP/1.1" 200 - "http://localhost:5002/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [28/May/2025:21:25:42 +0000] \"GET /__/firebase/init.js?useEmulator=true HTTP/1.1\" 200 - \"http://localhost:5002/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36\""}}
